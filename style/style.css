@@ -1,0 +1,33 @@
+*{
+    font-family: 'Merriweather', serif;
+}
+.site_header{
+    background: linear-gradient(to top ,rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 600px;
+    position: relative;
+    margin: 60px 90px 0 90px;
+    border-radius: 15px;
+}
+.banner{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.banner h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.banner h1{
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+}
