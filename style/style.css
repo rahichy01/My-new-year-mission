@@ -1,14 +1,14 @@
 *{
-    font-family: 'Merriweather', serif;
+    
 }
 .site_header{
     background: linear-gradient(to top ,rgba(0,0,0,0.1),rgba(0,0,0,0.7)),url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1320px;
+    width: 90%;
     height: 600px;
     position: relative;
-    margin: 60px 90px 0 90px;
+    margin: 2% 5%;
     border-radius: 15px;
 }
 .banner{
@@ -23,6 +23,7 @@
 .banner h3{
     font-size: 32px;
     font-weight: 400;
+    font-family: 'Merriweather', serif;
 }
 .banner h1{
     color: #FFF;
@@ -30,4 +31,34 @@
     font-style: normal;
     font-weight: 900;
     line-height: 30px;
+    font-family: 'Merriweather', serif;
+}
+.discount_section{
+}
+.discount_section h1{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 75px;
+    font-weight: 700;
+}
+.discount_section h3{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 500;
+}
+.discount_section h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 45px;
+    line-height: 0;
+    font-weight: 700;
+}
+.discount_section img {
+    width: 802.9px;
+    margin: 80px auto;
+    display: block;
 }
