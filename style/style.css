@@ -386,6 +386,7 @@ section.social {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin: 40px 0;
 }
 .All_Rights_Reserved {
     display: flex;
@@ -401,3 +402,8 @@ section.social {
     font-weight: 500;
     line-height: normal;
 }
+hr{
+    border: 1px solid rgba(255, 255, 255, 0.15); 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
