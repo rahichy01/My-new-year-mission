@@ -88,8 +88,10 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    line-height: 24px;
 }
-.welcome_box button{
+.welcome_box button {
+    width: 26%;
     color: white;
     text-align: center;
     font-family: Inter;
@@ -97,5 +99,5 @@
     font-weight: 700;
     background-color: #07021100;
     border: none;
-    
+    margin-top: 30px;
 }
