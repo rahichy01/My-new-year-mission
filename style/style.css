@@ -108,3 +108,147 @@
     border: none;
     margin-top: 30px;
 }
+
+.details_section{
+    width: 70%;
+    margin: 5px auto;
+    padding: 5% 10%;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.details_section h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.details_section span{
+    color: #F00;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.details_section button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #F00;
+    border: none;
+    padding: 13px 29px;
+    border-radius: 5px;
+    margin: 40px auto;
+    display: block;
+}
+.comming_soon_section{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comming_soon_left_box{
+    width: 30%;
+}
+.comming_soon_left_box h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.comming_soon_left_box h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.comming_soon_left_box p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.comming_soon_middle_box{
+    width: 30%;
+    margin: 0 12%;
+
+}
+.comming_soon_middle_box img{
+    width: 70%;
+    border: 10px solid #F00;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.comming_soon_right_box{
+    width: 30%;
+}
+.comming_soon_right_box h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 700;
+}
+.comming_soon_right_box p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 32px; 
+    margin: 10px 0px;
+    width: 85%;
+}
+.Holidays_Sale_section{
+    width: 90%;
+    margin: 30px auto;
+}
+.Holidays_Sale_section_top h3{
+    color: #070211;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+.Holidays_Sale_section_top h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 0;
+}
+.Holidays_Sale_section_top span{
+    color: #F00;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+.Holidays_Sale_section_top p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+.Holidays_Sale_section_bottom {
+    position: relative;
+}
+.img1{
+    position: absolute;
+    
+}
+.img2{
+    position: absolute;
+}
+.img3{
+    position: absolute;
+}
+.img4{
+    position: absolute;
+    bottom: 0px;
+}
