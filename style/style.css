@@ -235,7 +235,7 @@
     font-weight: 500;
     line-height: 32px; 
 }
-.Holidays_Sale_section_bottom {
+/* .Holidays_Sale_section_bottom {
     position: relative;
 }
 .img1{
@@ -251,4 +251,103 @@
 .img4{
     position: absolute;
     bottom: 0px;
+} */
+
+.THE_BEST_GIFTS{
+    width: 90%;
+    margin: 150px auto;
+    background-color: white;
+}
+.THE_BEST_GIFTS_section_details h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+.THE_BEST_GIFTS_section_details h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.THE_BEST_GIFTS_section_details p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 57%;
+}
+
+.THE_BEST_GIFTS_products_container .products_box {
+    width: 30%;
+    float: left;
+    margin: 20px;
+    
+}
+.THE_BEST_GIFTS_products_container .products_box img{
+    
+    width: 100%;
+    display: block;
+}
+
+.Subscribe_section{
+    background: rgba(255, 0, 0, 0.05);
+    width: 70%;
+    margin: auto;
+    clear: both;
+    padding: 8% 10%;
+    border-radius: 20px;
+}
+.Subscribe_section img{
+    display: block;
+    margin: auto;
+}
+.Subscribe_section h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+.Subscribe_section p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.Subscribe_feld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Subscribe_feld input{
+    border-radius: 53px 0 0 50px;
+    background: #FFF;
+    border: none;
+    padding: 25px;
+    width: 370px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Subscribe_feld button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 25px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
